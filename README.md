@@ -1,6 +1,6 @@
 __Description__. This repo provides a record of the process I followed to generate "parallel transport tractography" on one example SPINS participant, using `trekker` software [[manual]](https://dmritrekker.github.io/manual/trekker.html) [[citation]](https://www.ismrm.org/19/program_files/O60.htm)
 
-__Note__. I am running on Mac 10.15.3. Trekker does not have a stand-alone executable for Mac, so I installed [linux-noah](https://github.com/linux-noah/noah) and then was provided with a trekker executiable from Dr. Aydogan via [GitHub](https://github.com/dmritrekker/trekker/raw/master/binaries/trekker_linux_x64_v0.5).
+__Note__. I am running on Mac 10.15.3. Trekker does not have a stand-alone executable for Mac, so I installed [linux-noah](https://github.com/linux-noah/noah) and then was provided with a trekker executable from Dr. Aydogan via [GitHub](https://github.com/dmritrekker/trekker/raw/master/binaries/trekker_linux_x64_v0.5).
 
 -----
 
