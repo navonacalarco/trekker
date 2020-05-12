@@ -1,1 +1,4 @@
-/data/*brainsuite_dwi.nii.gz
+/data/*dwi.nii.gz
+/data/sub-EXAMPLE_tractography_MRTrixStreamlines_10000.tck
+/data/sub-EXAMPLE_tractography_MRTrixStreamlines_50000.tck
+.DS_Store

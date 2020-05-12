@@ -35,7 +35,7 @@ tckgen sub-EXAMPLE_FOD.nii.gz sub-EXAMPLE_tractography_MRTrixStreamlines_50000.t
 mrview sub-EXAMPLE_ses-02_dwi.nii.gz -tractography.load sub-EXAMPLE_tractography_MRTrixStreamlines_50000.tck
 ```
 
-Step 5: Compute 'parallel transport tractography' with Trekker (enabled by noah)
+Step 6: Compute 'parallel transport tractography' with Trekker (enabled by noah)
 ```
 noah trekker_linux_x64_v0.5 \
   -fod sub-EXAMPLE_FOD.nii.gz \
