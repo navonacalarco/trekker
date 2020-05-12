@@ -1,5 +1,7 @@
-The complete contents of the `/data` folder is:
+Three files in the `/data` folder were copied from `archive/data`:
 
-[1] sub-PARTICIPANT_ses-XX_PREPROCESSED_dwi.nii.gz (cannot be shared)
+[1] sub-PARTICIPANT_ses-XX_PREPROCESSED_dwi.nii.gz (cannot be shared here)
 [2] bvecs (as shown)
 [3] bvals (as shown)
+
+All other files generated in MRTrix and trekker.
