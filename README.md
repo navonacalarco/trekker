@@ -47,8 +47,7 @@ mrview sub-EXAMPLE_ses-02_dwi.nii.gz -tractography.load sub-EXAMPLE_tractography
 
 Step 6: Compute 'parallel transport tractography' with Trekker
 ```
-noah trekker_linux_x64_v0.5 \
-  -fod sub-EXAMPLE_FOD.nii.gz \
+trekker -fod sub-EXAMPLE_FOD.nii.gz \
   -seed_image sub-EXAMPLE_mask.nii.gz \
   -seed_count 100000 \
   -output sub-EXAMPLE_tractography_trekkerPTT.vtk
