@@ -41,7 +41,8 @@ tckgen sub-EXAMPLE_FOD.nii.gz sub-EXAMPLE_tractography_MRTrixStreamlines.tck \
    -seed_image sub-EXAMPLE_mask.nii.gz \
    -mask sub-EXAMPLE_mask.nii.gz \
    -seeds 100000 \
-   -maxlength 10000 #effectively infinite
+   -minlenth 10 \ #10 if short connections, if not do 20 or even 30
+   -maxlength 250 #could make effectively infinite, but this more plausible
 mrview sub-EXAMPLE_ses-02_dwi.nii.gz -tractography.load sub-EXAMPLE_tractography_MRTrixStreamlines.tck
 ```
 
@@ -50,5 +51,7 @@ Step 6: Compute 'parallel transport tractography' with Trekker
 trekker -fod sub-EXAMPLE_FOD.nii.gz \
   -seed_image sub-EXAMPLE_mask.nii.gz \
   -seed_count 100000 \
+  -minLength 10 \
+  -maxLength 250 \
   -output sub-EXAMPLE_tractography_trekkerPTT.vtk
 ```
