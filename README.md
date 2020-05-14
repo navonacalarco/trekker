@@ -37,7 +37,7 @@ mrview sub-EXAMPLE_ses-02_dwi.nii.gz -odf.load_sh sub-EXAMPLE_FOD.nii.gz
 
 Step 5: Compute whole-brain streamlines tractography with tckgen (MRTrix iFOD2, probabilistic), for comparative purposes
 ```
-tckgen sub-EXAMPLE_FOD.nii.gz sub-EXAMPLE_tractography_MRTrixStreamlines_50000.tck \
+tckgen sub-EXAMPLE_FOD.nii.gz sub-EXAMPLE_tractography_MRTrixStreamlines.tck \
    -seed_image sub-EXAMPLE_mask.nii.gz \
    -mask sub-EXAMPLE_mask.nii.gz \
    -seeds 100000 \
