@@ -2,3 +2,4 @@
 /data/sub-EXAMPLE_tractography_MRTrixStreamlines_10000.tck
 /data/sub-EXAMPLE_tractography_MRTrixStreamlines_50000.tck
 .DS_Store
+/data/*.gif
